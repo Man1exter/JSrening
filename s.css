@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+button{
+    width: 150px;
+    height: 80px;
+    font-size: 40px;
+    cursor: pointer;
+    display: block;
+    border: dashed;
+    background-color: lightblue;
+    transition: .2s linear;
+    margin: 10px auto;
+}
+button:hover{
+    background-color: rgb(56, 182, 228);
+    width: 155px;
+    height: 85px;
+    font-size: 42.5px;
+}
+div{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(37, 29, 150);
+    margin: 5px;
+    top: 20%;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+    border: 3px solid green;
+    float: left;
+    cursor: pointer;
+}
+.circle{
+    border-radius: 50%;
+    background-color: orange;
+    color: black;
+}
+div:hover{
+    background-color: yellowgreen;
+    color: black;
+    border: 3px solid red;
+}

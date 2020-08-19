@@ -79,10 +79,10 @@ strong{
 }
 .square{
     position: fixed;
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     border: 5px solid yellow;
-    background-color:cadetblue;
+    background-color:rgb(31, 129, 133);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);

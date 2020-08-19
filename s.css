@@ -65,3 +65,7 @@ span{
 span:hover{
     border: 7.5px solid yellow;
 }
+aside{
+    display: flex;
+    flex-direction: row;
+}

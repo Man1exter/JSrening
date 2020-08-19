@@ -4,7 +4,7 @@
 }
 body{
     background-color: black;
-    height: 200vh;
+    height: 1000vh;
 }
 button{
     width: 150px;
@@ -77,19 +77,19 @@ strong{
     border: 5px solid green;
     margin: 1px;
 }
-.square{
+#square{
     position: fixed;
-    width: 150px;
-    height: 150px;
+    /* width: 150px;
+    height: 150px; */
     border: 5px solid yellow;
     background-color:rgb(31, 129, 133);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 15px ;
-    transition: .5s linear;
+    /* transition: .5s linear; */
 }
-.square:hover{
+#square:hover{
     background-color: orange;
     border: 5px solid pink;
 }

@@ -34,3 +34,15 @@ const addElement2 = function(){
     document.body.appendChild(span);
 }
  pst.addEventListener("click", addElement2);
+
+
+
+
+ const bet = document.querySelector('#last');
+
+const createElement1 = function(){
+    const strong = document.createElement('strong');
+    document.body.appendChild(strong);
+
+}
+ bet.addEventListener("click", createElement1)

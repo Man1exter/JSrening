@@ -69,3 +69,10 @@ aside{
     display: flex;
     flex-direction: row;
 }
+strong{
+    width: 0;
+    height: 0;
+    background-color: white;
+    border: 5px solid green;
+    margin: 1px;
+}

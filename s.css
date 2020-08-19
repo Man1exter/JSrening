@@ -16,12 +16,14 @@ button{
     transition: .2s linear;
     margin: 10px auto;
     border-radius: 10px;
+    color: yellow;
 }
 button:hover{
     background-color: rgb(56, 182, 228);
     width: 155px;
     height: 85px;
     font-size: 42.5px;
+    color: black;
 }
 div{
     width: 50px;

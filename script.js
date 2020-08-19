@@ -1,3 +1,6 @@
+
+//first button
+
 const btn = document.querySelector("button"); //pobranie z dom
 let number = 1; //stworzenie zmiennej 
 
@@ -21,7 +24,7 @@ let number = 1; //stworzenie zmiennej
 
 
 
-
+//second button 
 
 
  const pst = document.querySelector('#tictac');

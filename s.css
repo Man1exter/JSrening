@@ -32,6 +32,7 @@ div{
     border: 3px solid green;
     float: left;
     cursor: pointer;
+    transition: .3s linear;
 }
 .circle{
     border-radius: 50%;

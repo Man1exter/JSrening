@@ -14,6 +14,20 @@ let number = 1; //stworzenie zmiennej
          div.classList.add("circle")
      }
      number++;
-     
+
  }
  btn.addEventListener("click", addElement);
+
+
+
+
+
+
+
+ const pst = document.querySelector('#tictac');
+
+const addElement2 = function(){
+    const span = document.createElement('span');
+    document.body.appendChild(span);
+}
+ pst.addEventListener("click", addElement2);

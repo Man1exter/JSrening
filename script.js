@@ -85,37 +85,37 @@ window.addEventListener("scroll", function(){
 //-------------------------------------------------------
 //--------------#verb scrolling effect ----------
 
+// // document.body.style.height = "10000px";
+// let size = 50;
+// let increase = true;
+// // const verb = document.querySelector('#verb');
 // document.body.style.height = "10000px";
-let size = 50;
-let increase = true;
-// const verb = document.querySelector('#verb');
-document.body.style.height = "10000px";
-const div = document.createElement("footer");
-document.body.appendChild(footer);
+// const div = document.createElement("footer");
+// document.body.appendChild(footer);
 
 
-footer.style.height = size + "px";
-footer.style.top = "50vh";
-footer.style.width = "100%";
-footer.style.left = 0;
-footer.style.backgroundColor = "white";
-footer.style.position = "fixed";
+// footer.style.height = size + "px";
+// footer.style.top = "50vh";
+// footer.style.width = "100%";
+// footer.style.left = 0;
+// footer.style.backgroundColor = "white";
+// footer.style.position = "fixed";
 
-// verb.style.height = size - "px";
-const scrollEff = function () {
+// // verb.style.height = size - "px";
+// const scrollEff = function () {
    
-     if(size > window.innerHeight / 2){
-        increase = !increase;
-    } else if (size <= 0){
-        increase = !increase;
-    }
-    if(increase){
-        size += 10;
-    } else {
-        size -= 10;
-    }
-    verb.style.height = size + "px";
-}
-window.addEventListener("scroll", scrollEff)
+//      if(size > window.innerHeight / 2){
+//         increase = !increase;
+//     } else if (size <= 0){
+//         increase = !increase;
+//     }
+//     if(increase){
+//         size += 10;
+//     } else {
+//         size -= 10;
+//     }
+//     verb.style.height = size + "px";
+// }
+// window.addEventListener("scroll", scrollEff)
 
 

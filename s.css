@@ -12,6 +12,7 @@ button{
     background-color: lightblue;
     transition: .2s linear;
     margin: 10px auto;
+    border-radius: 10px;
 }
 button:hover{
     background-color: rgb(56, 182, 228);

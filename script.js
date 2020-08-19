@@ -116,6 +116,8 @@ window.addEventListener("scroll", function(){
 //     }
 //     verb.style.height = size + "px";
 // }
-// window.addEventListener("scroll", scrollEff)
+// window.addEventListener("scroll", scrollEff)//
 
 
+
+/// this way being better i promise

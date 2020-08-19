@@ -83,13 +83,30 @@ strong{
     height: 150px; */
     border: 5px solid yellow;
     background-color:rgb(20, 110, 150);
-    top: 50%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border-radius: 15px ;
+    border-radius: 55px ;
     /* transition: .5s linear; */
+    left: 20%;
 }
 #square:hover{
     background-color: rgb(50, 179, 33);
     border: 5px solid pink;
 }
+/* #verb{
+   position: fixed;
+   width: 100%;
+   height: 110px;
+   background-color: white;
+   color: black;
+   top: -0.5%;
+   border: none;
+   border-radius: none;
+   left: -0.5%;
+   z-index: -1;
+}
+#verb:hover{
+    color: blue;
+    background-color: #ddd;
+} */

@@ -46,3 +46,4 @@ const createElement1 = function(){
 
 }
  bet.addEventListener("click", createElement1)
+ 

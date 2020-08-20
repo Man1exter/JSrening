@@ -88,7 +88,6 @@ strong{
     transform: translate(-50%, -50%);
     border-radius: 55px ;
     /* transition: .5s linear; */
-    left: 20%;
 }
 #square:hover{
     background-color: rgb(50, 179, 33);
@@ -97,7 +96,7 @@ strong{
 #verb{
    position: fixed;
    width: 100%;
-   height: 95px;
+   height: 100px;
    background-color: rgb(65, 101, 105);
    color: black;
    top: -0.5%;
@@ -106,4 +105,29 @@ strong{
    left: -0.5%;
    z-index: -1;
    border-bottom: 2.5px solid green;
+}
+
+
+/* //---------------------------------------------// */
+
+ul{
+    z-index: 2;
+    color: white;
+    text-align: center;
+    font: 20px sans-serif;
+    display: none;
+}
+.covert{
+    display: block;
+    z-index: 2;
+}
+#even{
+    background-color: orange;
+    border: 4px solid blue;
+    color: black;
+}
+#even:hover{
+    background-color: yellow;
+    border: 4px solid green;
+    color: blue;
 }

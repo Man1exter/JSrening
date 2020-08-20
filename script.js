@@ -149,8 +149,13 @@ window.addEventListener("scroll", function(){
     
 })
 
+//-----------------*****----------------------------
+//----------------------------****------------------
+//------****----------------------------------****--
 
 
-
-
-
+const rof = document.querySelector('#even');
+const alt = document.querySelectorAll('ul');
+  rof.addEventListener = ("click", () => {
+     alt.classList.add("covert");
+ })

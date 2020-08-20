@@ -128,7 +128,7 @@ window.addEventListener("scroll", function(){
 
 const rect = document.querySelector('#verb');
 let growing = true;
-let high = 100;
+let high = 95;
 window.addEventListener("scroll", function(){
     
     if(growing == true){
@@ -140,7 +140,7 @@ window.addEventListener("scroll", function(){
         rect.style.height = high + "px";
     
     }
-    if(high >= window.innerHeight / 2){
+    if(high >= window.innerHeight / 4){
         growing = false;
     } 
     else if(high <= 0){ //(100 <= 0)

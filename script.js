@@ -85,7 +85,7 @@ window.addEventListener("scroll", function(){
 //-------------------------------------------------------
 //--------------#verb scrolling effect ----------
 
-// // document.body.style.height = "10000px";
+
 // let size = 50;
 // let increase = true;
 // // const verb = document.querySelector('#verb');
@@ -121,3 +121,35 @@ window.addEventListener("scroll", function(){
 
 
 /// this way being better i promise
+
+//----------------- try again ---------------------//
+//***************lets do it ------------------------ */
+
+
+const rect = document.querySelector('#verb');
+let growing = true;
+let high = 100;
+window.addEventListener("scroll", function(){
+    
+    if(growing == true){
+        high += 15;
+        rect.style.height = high + "px";
+    } 
+    else{
+        high -= 15;
+        rect.style.height = high + "px";
+    
+    }
+    if(high >= window.innerHeight / 2){
+        growing = false;
+    } 
+    else if(high <= 0){ //(100 <= 0)
+        growing = true;
+    }
+})
+
+
+
+
+
+

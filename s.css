@@ -116,6 +116,8 @@ li{
     text-align: center;
     font: 20px sans-serif;
     display: none;
+    transition: .4s linear;
+    cursor: pointer;
 }
 /* .covert{
     display: block;
@@ -130,4 +132,7 @@ li{
     background-color: yellow;
     border: 4px solid green;
     color: blue;
+}
+li:hover{
+    color: greenyellow;
 }

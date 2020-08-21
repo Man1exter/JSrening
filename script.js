@@ -158,5 +158,4 @@ const rof = document.querySelector("#even");
 const allItems = document.querySelectorAll("li");
   rof.addEventListener("click", () => {
      allItems[0].style.display = "block";
-    // rof.classList.add(".covert")
  })

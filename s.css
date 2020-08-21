@@ -114,9 +114,8 @@ li{
     z-index: 2;
     color: white;
     text-align: center;
-    font: 20px sans-serif;
     display: none;
-    transition: .4s linear;
+    transition: .2s linear;
     cursor: pointer;
 }
 /* .covert{

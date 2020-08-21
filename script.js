@@ -156,7 +156,16 @@ window.addEventListener("scroll", function(){
 
 const rof = document.querySelector("#even");
 const allItems = document.querySelectorAll("li");
+let fontSize = 10;
+
   rof.addEventListener("click", () => {
-      for (let i = 0; allItems.length; i++)
+    fontSize++;
+      
+    for (let i = 0; allItems.length; i++){
      allItems[i].style.display = "block";
+     allItems[i].style.fontSize = `${fontSize}px`;
+    }
  })
+//------------------**************-------------------
+//----------************--------------***********----
+//----------------------**********-------------------

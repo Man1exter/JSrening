@@ -166,6 +166,16 @@ let fontSize = 10;
      allItems[i].style.fontSize = `${fontSize}px`;
     }
  })
+
+
+ //forEach -> wykonanie na kazdym ele tej listy
+ // allItems.forEach((allItems)=>{
+     //allItems.style.display = "block";
+     //allItems.style.fontSize = fontSize + "px";
+ //})
+ //fontSize++;
+
+ 
 //------------------**************-------------------
 //----------************--------------***********----
 //----------------------**********-------------------

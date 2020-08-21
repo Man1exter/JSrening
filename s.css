@@ -110,17 +110,17 @@ strong{
 
 /* //---------------------------------------------// */
 
-ul{
+li{
     z-index: 2;
     color: white;
     text-align: center;
     font: 20px sans-serif;
     display: none;
 }
-.covert{
+/* .covert{
     display: block;
     z-index: 2;
-}
+} */
 #even{
     background-color: orange;
     border: 4px solid blue;

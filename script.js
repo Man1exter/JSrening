@@ -157,5 +157,6 @@ window.addEventListener("scroll", function(){
 const rof = document.querySelector("#even");
 const allItems = document.querySelectorAll("li");
   rof.addEventListener("click", () => {
-     allItems[0].style.display = "block";
+      for (let i = 0; allItems.length; i++)
+     allItems[i].style.display = "block";
  })

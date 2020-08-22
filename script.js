@@ -183,8 +183,8 @@ let fontSize = 10;
 
 //--------**----------**-----------**---------------**-
 //------------**-------------**--------**---------**---
-let crew = 10; //wielkosc fonta
-let orderElement = 1; //numer porzatkowy jakiegos li
+let crew = 0; //wielkosc fonta
+let orderSize = 10; //numer porzatkowy jakiegos li
 
 const init = () => { //stowrzenie wszytskiego na stronie
      const enter = document.createElement("button");
@@ -200,29 +200,35 @@ const init = () => { //stowrzenie wszytskiego na stronie
      enter.style.top = "-0.9%"
 
 
-     const ulLi = document.createElement("ul");
+     const rect = document.createElement("section");
     //  ulLi.textContent = [i] + "element";
-     document.body.appendChild(ulLi);
+     document.body.appendChild(rect);
 
-     ulLi.style.position = "relative";
-     ulLi.style.height = "700px";
-     ulLi.style.width = "400px";
-     ulLi.style.color = "yellow";
+     rect.style.position = "relative";
+     rect.style.height = "400px";
+     rect.style.width = "400px";
+     rect.style.color = "yellow";
     //  ulLi.style.backgroundColor = "gray";
-     ulLi.style.left = "1%";
-     ulLi.style.top = "-1%";
+     rect.style.left = "1%";
+     rect.style.top = "-1%";
 
-     enter.addEventListener("click", createLiElements)
+     enter.addEventListener("click", createLi)
 }
 
 
 
-const createLiElements = () => { //kazde nacisniecie na przycisk
+const createLi = () => { //kazde nacisniecie na przycisk
 for (let i = 0; i < 10; i++) {
-    const liLu = document.createElement("li");
-    liLu.textContent = `Element ${i}`;
-    document.querySelector('ulLi').appendChild(liLu); //odwolanie do tego selektora
+    const oracle = document.createElement("li");
+    oracle.textContent = `Element ${i}`;
+    document.querySelector("section").appendChild(oracle); //odwolanie do tego selektora
 
+    oracle.style.color = "white";
+    // oracle.style.zIndex = "3";
+    oracle.textContent = `Number ${crew++}`;
+    oracle.style.fontSize = `${orderSize++}px`    
+
+    oracle.style.display = "block";
 }
 }
 init()

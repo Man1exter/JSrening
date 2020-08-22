@@ -209,8 +209,9 @@ const init = () => { //stowrzenie wszytskiego na stronie
      rect.style.width = "400px";
      rect.style.color = "yellow";
     //  ulLi.style.backgroundColor = "gray";
-     rect.style.left = "1%";
+     rect.style.left = "6%";
      rect.style.top = "-1%";
+     rect.style.textAlign = "center";
 
      enter.addEventListener("click", createLi)
 }

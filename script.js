@@ -179,3 +179,50 @@ let fontSize = 10;
 //------------------**************-------------------
 //----------************--------------***********----
 //----------------------**********-------------------
+
+
+//--------**----------**-----------**---------------**-
+//------------**-------------**--------**---------**---
+let crew = 10; //wielkosc fonta
+let orderElement = 1; //numer porzatkowy jakiegos li
+
+const init = () => { //stowrzenie wszytskiego na stronie
+     const enter = document.createElement("button");
+     enter.textContent = "Add 10 elements";
+     document.body.appendChild(enter);
+
+     enter.style.border = "3px solid red";
+     enter.style.height = "110px";
+     enter.style.width = "185px";
+     enter.style.backgroundColor = "green";
+     enter.style.position = "relative";
+     enter.style.left = "-33.5%"
+     enter.style.top = "-0.9%"
+
+
+     const ulLi = document.createElement("ul");
+    //  ulLi.textContent = [i] + "element";
+     document.body.appendChild(ulLi);
+
+     ulLi.style.position = "relative";
+     ulLi.style.height = "700px";
+     ulLi.style.width = "400px";
+     ulLi.style.color = "yellow";
+    //  ulLi.style.backgroundColor = "gray";
+     ulLi.style.left = "1%";
+     ulLi.style.top = "-1%";
+
+     enter.addEventListener("click", createLiElements)
+}
+
+
+
+const createLiElements = () => { //kazde nacisniecie na przycisk
+for (let i = 0; i < 10; i++) {
+    const liLu = document.createElement("li");
+    liLu.textContent = `Element ${i}`;
+    document.querySelector('ulLi').appendChild(liLu); //odwolanie do tego selektora
+
+}
+}
+init()

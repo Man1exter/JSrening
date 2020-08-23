@@ -83,7 +83,7 @@ strong{
     height: 150px; */
     border: 5px solid yellow;
     background-color:rgb(20, 110, 150);
-    top: 50%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 55px ;

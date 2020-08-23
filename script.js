@@ -241,4 +241,6 @@ init()
 const h1 = document.querySelector('h1');
 document.body.addEventListener('mousemove', function(e) {
 h1.textContent = `${e.screenX}, ${e.screenY}`;
+
+document.body.style.backgroundColor = `rgb(${e.screenX/20}, ${e.screenY/20}, ${e.screenX/20} )`
 })

@@ -197,7 +197,7 @@ const init = () => { //stowrzenie wszytskiego na stronie
      enter.style.backgroundColor = "green";
      enter.style.position = "relative";
      enter.style.left = "-33.5%"
-     enter.style.top = "-0.9%"
+     enter.style.top = "-0.8%"
 
 
      const rect = document.createElement("section");

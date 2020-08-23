@@ -135,3 +135,18 @@ li{
 li:hover{
     color: greenyellow;
 }
+h1{
+    position: fixed;
+    color: whitesmoke;
+    text-transform: uppercase;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    cursor: pointer;
+    transition: .3s linear;
+}
+h1:hover{
+    color: cornflowerblue;
+    
+}
